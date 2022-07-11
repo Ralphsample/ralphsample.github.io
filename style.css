@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: black;
+  font-size: 18px;
+  width: 100%;
+}
+.headerbutton {
+  padding: 10px;
+  background-color: white;
+  border: white;
+  border-radius: 20px;
+  width: 160px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+}
+.headerbutton:hover {
+  cursor: pointer;
+  color: hsl(208, 11%, 55%);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.getstarted {
+  color: white;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: hsl(322, 100%, 66%);
+  border: hsl(322, 100%, 66%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  width: 200px;
+  height: 43px;
+}
+.getstarted:hover {
+  cursor: pointer;
+  background-color: hsl(322, 97%, 76%);
+}
+.top {
+  width: 100%;
+  background-image: url("images/bg-hero-desktop.svg");
+  background-color: hsl(193, 100%, 96%);
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 100px;
+}
+.minitop {
+  display: flex;
+  justify-content: space-between;
+}
+.illustrateimg {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.buildcontainer {
+  margin-top: 120px;
+  width: 400px;
+  height: 300px;
+
+  /* background-color: red; */
+}
+.build {
+  font-size: 35px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: hsl(192, 100%, 9%);
+}
+.buildcontent {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(192, 100%, 9%);
+  margin-bottom: 30px;
+}
+.firstsmallcon,
+.secondsmallcon,
+.thirdsmallcon {
+  height: 350px;
+  width: 1100px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 5px 5px whitesmoke;
+  padding-right: 30px;
+  padding-top: 60px;
+  padding-left: 95px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.growcon {
+  width: 380px;
+  /* margin-left: 95px; */
+  margin-top: 70px;
+  /* margin-bottom: 80px; */
+}
+.grow {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  color: hsl(192, 100%, 9%);
+  margin-bottom: 15px;
+}
+.generate {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: hsl(208, 11%, 55%);
+  font-size: 15px;
+}
+
+.ready {
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  color: hsl(192, 100%, 9%);
+}
+.startedfree {
+  color: white;
+  padding: 17px;
+  border-radius: 30px;
+  background-color: hsl(322, 100%, 66%);
+  border: hsl(322, 100%, 66%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  height: 55px;
+  width: 280px;
+  margin: 30px 210px;
+}
+.startedfree:hover {
+  cursor: pointer;
+  background-color: hsl(322, 97%, 76%);
+}
+.lastcon {
+  background-color: hsl(192, 100%, 9%);
+  padding-top: 150px;
+  padding-left: 85px;
+  padding-bottom: 40px;
+  margin-top: 290px;
+  position: relative;
+}
+.smallestcon {
+  height: 230px;
+  width: 700px;
+  background-color: white;
+  margin: 100px auto;
+  border-radius: 12px;
+  box-shadow: 0 -5px 5px 0 whitesmoke;
+  padding-top: 60px;
+  position: absolute;
+  top: -250px;
+  right: 290px;
+}
+.huddlecontent {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  color: white;
+  margin-top: 0;
+}
+.chaticon {
+  margin-top: 7px;
+}
+.huddle {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+.iconloc,
+.dialicon,
+.emailicon {
+  color: white;
+  font-size: 12px;
+}
+
+.firstlorem {
+  display: flex;
+  gap: 30px;
+  width: 290px;
+  align-items: flex-start;
+}
+.lorem {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 84%);
+  line-height: 1.5;
+  font-size: 12px;
+}
+.dialnum {
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.num {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 84%);
+  font-size: 12px;
+}
+.email {
+  display: flex;
+  gap: 30px;
+  color: white;
+  margin: 20px 0;
+  align-items: center;
+}
+.example {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 84%);
+  font-size: 12px;
+}
+.about {
+  color: hsl(0, 0%, 84%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.about:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.social {
+  color: white;
+}
+.social:hover {
+  cursor: pointer;
+  color: hsl(322, 100%, 66%);
+}
+.socialcon {
+  display: flex;
+  gap: 20px;
+}
+.lastconfle {
+  display: flex;
+
+  justify-content: space-between;
+  margin-right: 230px;
+}
+footer {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 84%);
+  font-size: 11px;
+  text-align: right;
+  margin-right: 100px;
+}
